@@ -1,0 +1,171 @@
+body {
+    /*background: url("/markus-spiske-cvBBO4PzWPg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+    background-color: black;
+}
+
+.navigating-boxes {
+    word-spacing: 5px;
+    text-align: right;
+    background: none;
+    height: 64px;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 0px;
+}
+.link-button {
+    font-family: fantasy;
+    background-color: whitesmoke;
+    font-size: 34px;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px 20px;
+    transition: 0.8s;
+    margin-top: 0px;
+    margin:auto;
+    clear: both;
+    margin-right: 0px;
+}
+/*
+#link-button1{
+    margin-right: 100px;
+    margin-left: 50px
+}
+#link-button2{
+    margin-right: 100px
+}
+#link-button3{
+    margin-right: 100px;
+}*/
+
+
+.link-button-home{
+    font-family: fantasy;
+    background-color: whitesmoke;
+    font-size: 34px;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px 20px;
+    transition: 0.8s;
+}
+
+.link-button:hover {
+    background-color: green;
+    box-shadow: 10px 5px 5px white ;
+    
+}
+
+.team-member-header {
+ text-align: center;
+ font-size: 60px;
+ font-family: fantasy;
+ font-weight: 300;
+ margin-top:0px;
+ color: whitesmoke;
+ text-shadow: 4px 4px black;
+}
+
+.text {
+    overflow:auto;
+    font-family: Garamond;
+    font-weight: bolder;
+    font-size: 30px;
+    width: 1000px;
+    height: 255px;
+    padding-right: 20px;
+    color: white;
+    margin: 0px;
+    
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    position: relative;
+    background-color: black;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 0px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.8s
+  }
+  .modal-header {
+    padding: 2px 16px;
+    background-color: rgb(25, 75, 32);
+    color: white;
+  }
+  
+  /* Modal Body */
+  .modal-body {padding: 2px 16px;}
+  
+  /* Modal Footer */
+  .modal-footer {
+    padding: 2px 16px;
+    background-color:rgb(25, 75, 32);
+    color: white;
+  }
+  
+
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+
+ #link-button1{
+  margin-right: 48px;
+ }
+ #link-button2{
+  margin-right: 37px;
+ }
+ #link-button3{
+  margin-right: 5px;
+ }
+
+.content{
+  display: block;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 10px 5px 5px white;
+  padding: 10px 10px;
+  text-align: center;
+  visibility: hidden;
+  transition: 1s;
+  opacity:0;
+
+}
+
+.button:hover .content{
+ opacity: 1;
+ visibility: visible;
+}

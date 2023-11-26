@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Benguiat Bold';
+  src: url('/website-project/Benguiat\ Bold.ttf') format('woff2'),
+       url('/website-project/Benguiat\ Bold.ttf.ttf') format('woff'),
+      url('/website-project/Benguiat\ Bold.ttf') format('truetype');
+ }
+
+ html {  
+   font-family: 'Benguiat Bold';
+ }
+
+
+body{
+  background-image: url('/Hour-of-Code/media/pxfuel.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#section1{
+  margin-top: 150px;
+  border: solid;
+  border-width: 10px;
+  border-style: solid; 
+  border-color: white;
+  border-radius: 10px;
+  background-color: black;
+}
+
+#image1{
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  
+}
+p{
+  font-size: 20px;
+}
+
+#section2{
+  margin-top: 150px;
+  border: solid;
+  border-width: 10px;
+  border-style: solid; 
+  border-color: white;
+  border-radius: 10px;
+  background-color: black;
+}
+
+#image2{
+  float: right;
+}
+
+#section3{
+  margin-top: 150px;
+  border: solid;
+  border-width: 10px;
+  border-style: solid; 
+  border-color: white;
+  border-radius: 10px;
+  background-color: black;
+  padding-bottom: 90px;
+}
+
+#video1{
+  padding-top: 40px;
+  float: left;
+  height: 300px;
+}
+
+
+.home-object {
+border-style: solid; 
+border-color: white;
+border-radius: 10px;
+word-spacing: 20px;
+position: sticky;
+top: 0px;
+background-color: rgb(0, 0, 0);
+}
+
+.a-home {
+  text-align: left;
+  margin-left: 20px;
+}
+
+#home-button {
+  background-color: black;
+  color:white;
+  transition: 0.4s;
+}
+
+#home-button:hover {
+  background-color: white;
+  color:black;
+}
+
+#text1 {
+  color: aliceblue;
+  padding-top: 0px;
+  text-align: center;
+}
+
+#text2 {
+  color: aliceblue;
+  padding-top: 0px;
+  text-align: center;
+}
+
+#text3 {
+  color: aliceblue;
+  padding-top: 0px;
+  text-align: center;
+}
+
+
+h1 {
+  margin-top: 150px;
+  border: solid;
+  border-width: 10px;
+  border-style: solid; 
+  border-color: white;
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 150px;
+  border: solid;
+  border-width: 3px;
+  border-style: solid; 
+  border-color: white;
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  margin-right: 500px;
+  margin-left: 500px;
+}
