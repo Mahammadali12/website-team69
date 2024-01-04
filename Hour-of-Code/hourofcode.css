@@ -11,7 +11,7 @@
 
 
 body{
-  background-image: url('/Hour-of-Code/media/pxfuel.jpg');
+  background-image: url('./media/pxfuel.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

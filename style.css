@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Benguiat Bold';
-    src: url('/website-project/Benguiat\ Bold.ttf') format('woff2'),
-         url('/website-project/Benguiat\ Bold.ttf.ttf') format('woff'),
-        url('/website-project/Benguiat\ Bold.ttf') format('truetype');
+    src: url('./website-project/Benguiat\ Bold.ttf') format('woff2'),
+         url('./website-project/Benguiat\ Bold.ttf.ttf') format('woff'),
+        url('./website-project/Benguiat\ Bold.ttf') format('truetype');
 }
 
 .header {
@@ -25,7 +25,7 @@
     position: absolute; 
             height: 100%; 
             width: 100%; 
-            background-image: url('/markus-spiske-cvBBO4PzWPg-unsplash.jpg'); 
+            background-image: url('./markus-spiske-cvBBO4PzWPg-unsplash.jpg'); 
             background-size: cover; 
             background-position: center; 
             background-attachment: fixed;
@@ -33,7 +33,7 @@
             z-index: -1; 
 }
 body{
-    background-image: url('/markus-spiske-cvBBO4PzWPg-unsplash.jpg');
+    background-image: url('./markus-spiske-cvBBO4PzWPg-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

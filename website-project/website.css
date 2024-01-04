@@ -12,7 +12,7 @@ html {
 
 html{
     font-family: 'Benguiat Bold', Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url('/website-project/computer-program-coding-screen.jpg');
+    background-image: url('./computer-program-coding-screen.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -28,7 +28,7 @@ h1 {
     border-color: white;
     border-radius: 10px;
     color: white;
-    background-image: url('/website-project/v627-aew-42-technologybackground.jpg');
+    background-image: url('./v627-aew-42-technologybackground.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -109,7 +109,7 @@ transition: 0.4s;
     border-style: solid; 
     border-color: white;
     border-radius: 10px;
-    background-image: url('/website-project/v627-aew-42-technologybackground.jpg');
+    background-image: url('./v627-aew-42-technologybackground.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -127,7 +127,7 @@ transition: 0.4s;
     border-style: solid; 
     border-color: white;
     border-radius: 10px;
-    background-image: url('/website-project/v627-aew-42-technologybackground.jpg');
+    background-image: url('./v627-aew-42-technologybackground.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
@@ -146,7 +146,7 @@ transition: 0.4s;
     border-style: solid; 
     border-color: white;
     border-radius: 10px;
-    background-image: url('/website-project/v627-aew-42-technologybackground.jpg');
+    background-image: url('./v627-aew-42-technologybackground.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -177,7 +177,7 @@ li{
     display: block;
     height: 50px;
     width: 150px;
-    background-image: url('/website-project/v627-aew-42-technologybackground.jpg');
+    background-image: url('./v627-aew-42-technologybackground.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -226,7 +226,7 @@ a {
     border-color: white;
     margin-left: 430px;
     margin-right: 450px;
-    background-image: url('/website-project/v627-aew-42-technologybackground.jpg');
+    background-image: url('./v627-aew-42-technologybackground.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
